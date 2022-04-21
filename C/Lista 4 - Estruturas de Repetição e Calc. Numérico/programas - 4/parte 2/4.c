@@ -28,12 +28,11 @@ int main ()
             aux--; 
         }
 
-        if(den != 0){ // denominador precisa ser diferente de 0 para realizar o cálculo
 
-            R = num / den;
-            S += R;
+         R = num / den;
+         S += R;
 
-        }
+
 
         y++; // y aumenta uma unidade a cada repetição (primeiro valor de y = 0)
 
